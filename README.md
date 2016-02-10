@@ -33,8 +33,51 @@ Date Modified: 	Feb. 9, 2016
 =============================
 Summary
 ==========
-First, I selected my 3 html files to modify. They all contain images. First, I removed all of the inline css in each HTML file so that it would not interfere with my custom css. I then added a link to my custom css in each files header. The custom header contains styles for each of the following HTML elements:
-	- p
+First, I selected my 3 html files to modify. Some contain images, some do not. First, I removed all of the inline css in each HTML file so that it would not interfere with my custom css. I then added a link to my custom css in each files header. 
+
+Summary of Style Changes:
+
+body:
+    - changed to a custom font (Tangerine) from Google Fonts that mimics 'Old-Fashioned' handwriting
+    - changed the color of the background to a 'Antique White' color to make the doc look aged
+    aligned all headers and non-paragraph text in the center of the page
+    - added a margin around the page to mimic a page's margin
+
+pre:
+    - reduced font weight to 100
+    - italicized the text
+
+h1: 
+    - changed the font to serif to make it more readable
+    - first letter is 3x larger, has a border around it (double border)
+    - italisized the font
+    - increased margins
+    
+h2, h3, h4, h5, h6:
+    - first letter is 3x larger, has a border around it (double border)
+    - underline these headers
+
+p:
+    - align all text to the left, inherits all other text attributes from body
+    
+a:
+    - font color changed to black
+
+table:
+    - increase the width to 100% so that tables can be centered
+
+tr:
+    - center table rows
+
+img:
+    - centered the images
+    - got rid of borders
+    - set the opacity to 50%, this gives it a faded appearance, which helps it look aged
+
+hr:
+    - changed the border to double
+    - increased the width
+    - changed color to black
 
 When rendered in the CSS files, they create somewhat of an 'old-fashioned' look as specified in the assignment specs.Screenshots were captured and saved in the same directory as the HTML and CSS files in the Part1 directory of the repo.
 
