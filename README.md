@@ -94,7 +94,18 @@ I did not collaborate with any other students for this assignment.
 =============================
 Summary
 ==========
+Basically, the two html files and their corresponding css files follow the assignment specs. One is ugly, one is slightly less ugly.
 
+Sources
+==========
+Font
+https://www.google.com/fonts/specimen/Roboto
+Image
+https://pbs.twimg.com/media/CN6n5rtWwAEh3Dz.jpg
+Gif Background 1
+https://media.giphy.com/media/LPoO9nkQPfJPW/giphy.gif
+Gif Background 2
+https://s-media-cache-ak0.pinimg.com/originals/f9/b9/f5/f9b9f516c321c5ca5e07f0081e311fb5.gif
 
 Know Issues
 ==========
