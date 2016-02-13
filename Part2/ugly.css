@@ -2,15 +2,19 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 150;   
+    font-weight: 300;
+    background-image: url("img/trippy.gif");
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+ font-family: "Comic Sans MS", Times, serif !important;   
 }
 
 header {
     width: 100%;
     height: 48px;
     color: gray;
-    background-color: #eee;
+    background-color: pink;
     font-size: 12px;
 }
 
@@ -19,12 +23,12 @@ section {
 }
 
 section h1 {
-    color: black;   
+    color: green;   
 }
 
 table i {
-    color:#6cf;
-    font-size: 3em;   
+    color: orange;
+    font-size: 4em;   
 }
 
 i {
@@ -46,7 +50,7 @@ i {
 }
 
 #contact {
-    color: black;
+    color: purple;
     font-size: 16px;
     text-align: left;
     display: block;
@@ -62,7 +66,8 @@ i {
 }
 
 .sidebar {
-    text-align: center;
+    color: white;
+    text-align: left;
     position:absolute;
     top: 350px;
     bottom: 0px;
@@ -70,7 +75,7 @@ i {
     height: 100%;
     width: 256px;
     padding: 24px;
-    background-color: #eee;
+    background-image: url("img/giphy.gif");
 }
 
 .main-content {
@@ -81,10 +86,10 @@ i {
 }
 
 .columns td {
-    background-color: #eee;
-    vertical-align: top;
+    background-color: yellow;
+    vertical-align: bottom;
     padding: 8px;
-    border: none;
+    border: 2px dashed purple;
     width: 33%;   
 }
 
@@ -97,6 +102,7 @@ i {
 }
 
 .prof-pic {
+    border: 4px double red;
     height: 256px;
     position: absolute;
 }
@@ -122,7 +128,7 @@ td p {
 .name-header {
     margin: 0px;
     height: 100%;
-    color: white;
+    color: antiquewhite;
     background-color: #333;
     padding: 32px 0px 32px 32px;   
 }
@@ -137,7 +143,7 @@ td p {
 
 .name-header h4 {
     margin-left: 320px;
-    color: #6cf;;
+    color: firebrick;;
 }
 
 .footer {
